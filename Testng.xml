@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- <suite name="Suite"> -->
+<suite name="Suite" parallel="tests">
+    <test name="TestingForTest1" verbose="5">
+        <!--<parameter name="browser" value="chrome" />-->
+        <classes>
+            <class name="testPackage.Demo1" />
+            <methods>
+                <include name="method1" />
+                <include name="method2" />
+            </methods>
+            <!-- 			<class name="mypackage.test.TestDemo3" /> -->
+        </classes>
+    </test>
+
+</suite>
